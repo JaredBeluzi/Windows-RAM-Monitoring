@@ -42,3 +42,10 @@ Runs until 20:00. After that process stops and data_transformation.py starts.
 
 Loads logging.csv in python, corrects some mistakes in the data and aggregates them to save disk space.
 Aggregated data is added to logging_hist.csv.
+
+--------------------------------
+--- How does the data look? ----
+--------------------------------
+
+If you want to take a look at what the data looks like, take a look at the jupyter notebook files, that I included.
+To use them I recommend installing Jupyter Notebooks beforehand. You can also look at it by installing some jupyter extension in you IDE of choice.

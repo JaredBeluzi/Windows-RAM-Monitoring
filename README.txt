@@ -2,7 +2,7 @@
 ------------- Goal -------------
 --------------------------------
 
-Fill logging.csv with data about RAM usage for shared Server.
+Fill logging.csv with data about RAM usage for a shared Server.
 The data includes
 - process name
 - loop number of the day (useful for grouping the data on logging entries)
@@ -30,7 +30,7 @@ This data can then be used to create any dashboard you like.
 
 1. START.bat
 
-Started via Task Scheduler (Aufgabenplanung) every day at 06:00.
+Started via Task Scheduler (Aufgabenplanung) every day in the morning at 06:00.
 Starts logging.bat.
 
 2. logging.bat

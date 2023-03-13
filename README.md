@@ -1,6 +1,26 @@
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#what-does-it-do?">What does it do?</a>
+      <ul>
+        <li><a href="#Example-result">Example result</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-use">How to use</a></li>
+    <li><a href="#how-does-it-work">How does it work?</a></li>
+      <ul>
+        <li><a href="#START.bat">START.bat</a></li>
+        <li><a href="#logging.bat">logging.bat</a></li>
+        <li><a href="#data_transformation.py">data_transformation.py</a></li>
+      </ul>
+  </ol>
+</details>
+
 ## What does it do?
 
-**Example result:**
+**Example result**
 
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
 

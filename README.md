@@ -81,7 +81,8 @@ You can click inside the cmd and stop the program:
 - This shows a message like "Stop the process (Y/N)"
 - Here you can type `y` and click enter
 - Then close the cmd window
-If you open the logging.csv, you should see something similar to the following image:
+If you open the logging.csv, you should see something similar this:
+
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging.png?raw=true)
 
 ### Testing the python file

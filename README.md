@@ -71,6 +71,11 @@ python -m pip install pandas
 
 1. Copy the whole folder to the machine, where you want to monitor the RAM usage.
 2. Double click the START.bat
-This should open a cmd 
+This should open a cmd and create a logging.csv in the folder.
+You can click inside the cmd and stop the program:
+- click `CTRL + c`
+- This shows a message like `Stop the process (Y/N)`
+- Here you can type `y` and click enter
+- Then close the cmd window
 
 ### Testing the python file

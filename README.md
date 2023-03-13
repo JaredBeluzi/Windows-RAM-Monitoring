@@ -18,7 +18,7 @@
   </ol>
 </details>
 
-## What does it do
+# What does it do
 
 **Example result**
 
@@ -36,7 +36,7 @@ The data shown in the picture above shows from left to right:
 Since each user will be monitored seperately, this program can be used on a machine to track RAM usage per user on a multi-user PC.
 This data can then be used to create any dashboard you like.
 
-## How to use
+# How to use
 
 1. Copy the whole folder to the machine, where you want to monitor the RAM usage.
 2. Install python on that machine (I used python 3.11.1)
@@ -49,7 +49,7 @@ python -m pip install pandas
 5. Let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv like the one in the picture above in this folder
 
 
-## How does it work?
+# How does it work?
 
 ### START.bat
 

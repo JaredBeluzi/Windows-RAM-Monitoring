@@ -2,7 +2,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#what-does-it-do">What does it do</a></li>
+    <li><a href="#what-does-it-do">What does it do?</a></li>
     <li><a href="#how-to-use">How to use</a></li>
     <li><a href="#how-does-it-work">How does it work?</a></li>
       <ul>

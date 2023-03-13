@@ -1,6 +1,6 @@
 ## What does it do?
 
-![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist%20example.png?raw=true)
+![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist_example.png?raw=true)
 
 The program creates a logging_hist.csv as above with data about the RAM usage of a Windows PC.
 The data shown in the picture above shows from left to right:

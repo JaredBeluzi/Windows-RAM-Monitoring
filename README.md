@@ -74,8 +74,10 @@ python -m pip install pandas
 This should open a cmd and create a logging.csv in the folder.
 You can click inside the cmd and stop the program:
 - click `CTRL + c`
-- This shows a message like >Stop the process (Y/N)
+- This shows a message like "Stop the process (Y/N)"
 - Here you can type `y` and click enter
 - Then close the cmd window
+If you open the logging.csv, you should see something similar to the following image:
+![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
 
 ### Testing the python file

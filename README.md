@@ -3,7 +3,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#what-does-it-do?">What does it do?</a>
+      <a href="#what-does-it-do">What does it do</a>
       <ul>
         <li><a href="#Example-result">Example result</a></li>
       </ul>
@@ -18,7 +18,7 @@
   </ol>
 </details>
 
-## What does it do?
+## What does it do
 
 **Example result**
 

@@ -31,17 +31,20 @@ python -m pip install pandas
 
 ## How does it work?
 
-1. START.bat
+### START.bat
 
-Started via Task Scheduler (Aufgabenplanung) every day in the morning at 06:00.
-Starts logging.bat.
+- should be started via Task Scheduler every day in the morning, e.g. at 06:00.
+- starts logging.bat
 
-2. logging.bat
+### logging.bat
 
-Retrieves list of all processes with users and RAM usage once every minute and writes it into logging.csv.
-Runs until 20:00. After that process stops and data_transformation.py starts.
+- retrieves list of all processes with users and RAM usage once every minute and writes it into a logging.csv.
+- runs until 20:00
+- process stops and data_transformation.py starts
 
-3. data_transformation.py
+### data_transformation.py
 
-Loads logging.csv in python, corrects some mistakes in the data and aggregates them to save disk space.
-Aggregated data is added to logging_hist.csv.
+- loads logging.csv into a pandas dataframe
+- corrects some mistakes in the data
+- aggregates data to save some disk space
+- aggregated data is added to a logging_hist.csv

@@ -1,4 +1,5 @@
 <!-- TABLE OF CONTENTS -->
+<details>
   <summary>Table of Contents</summary>
   <ol>
     <li>
@@ -15,6 +16,7 @@
         <li><a href="#data_transformation.py">data_transformation.py</a></li>
       </ul>
   </ol>
+</details>  
 
 # What does it do
 

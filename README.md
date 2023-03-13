@@ -13,7 +13,7 @@
   </ol>
 </details>  
 
-# What does it do
+# What does it do?
 
 **Example result:**
 
@@ -44,7 +44,7 @@ python -m pip install pandas
 5. Let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv like the one in the picture above in this folder
 
 
-# How does it work
+# How does it work?
 
 ### START.bat
 

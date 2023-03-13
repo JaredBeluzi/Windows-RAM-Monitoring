@@ -1,12 +1,11 @@
-## Goal
+## What does it do?
 
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist%20example.png?raw=true)
 
-
-Fill logging.csv with data about RAM usage for a shared Server.
-The data includes
+The program creates a logging_hist.csv as above with data about the RAM usage of a Windows PC.
+The data shown in the picture above shows from left to right:
 - process name
-- loop number of the day (useful for grouping the data on logging entries)
+- logging number of the day (useful for grouping on logging entries)
 - logging date
 - logging time
 - RAM usage in KB

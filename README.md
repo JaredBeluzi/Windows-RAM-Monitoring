@@ -11,6 +11,10 @@
         <li><a href="#data_transformationpy">data_transformation.py</a></li>
       </ul>
     <li><a href="#how-can-i-test-the-program">How can I test the program?</a></li>
+      <ul>
+        <li><a href="#testing-the-batch-files">Testing the batch files</a></li>
+        <li><a href="#testing-the-python-file">Testing the python file</a></li>
+      </ul>
   </ol>
 </details>  
 
@@ -78,6 +82,6 @@ You can click inside the cmd and stop the program:
 - Here you can type `y` and click enter
 - Then close the cmd window
 If you open the logging.csv, you should see something similar to the following image:
-![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
+![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging.png?raw=true)
 
 ### Testing the python file

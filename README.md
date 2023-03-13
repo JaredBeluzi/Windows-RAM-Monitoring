@@ -86,3 +86,14 @@ If you open the logging.csv, you should see something similar this:
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging.png?raw=true)
 
 ### Testing the python file
+
+1. First test the batch files (you need to create a logging.csv to test the python script)
+2. Run data_transformation.py
+To do this you can run the file in your IDE of choice or you can open a cmd and type
+```batch
+python data_transformation.py
+```
+Wait until the script finishes. If everything went well, there should be a logging_hist.csv in the folder that looks like this:
+![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
+
+If it did not work or the logging_hist.csv looks wrong, you can go through the python code step by step by going through the Jupyter file "data_transformation_test.ipynb" I included. I recommend you install Jupyter Notebooks before doing this and open the notebook (data_transformation_test.ipynb) in Jupyter. Here you can execute and debug each cell of code by clicking `Shift + Enter`.

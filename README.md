@@ -10,6 +10,7 @@
         <li><a href="#loggingbat">logging.bat</a></li>
         <li><a href="#data_transformationpy">data_transformation.py</a></li>
       </ul>
+    <li><a href="#how-can-i-test-the-program">How can I test the program?</a></li>
   </ol>
 </details>  
 
@@ -63,3 +64,13 @@ python -m pip install pandas
 - corrects some mistakes in the data
 - aggregates data to save some disk space
 - aggregated data is added to a logging_hist.csv
+
+# How can I test the program?
+
+### Testing the batch files
+
+1. Copy the whole folder to the machine, where you want to monitor the RAM usage.
+2. Double click the START.bat
+This should open a cmd 
+
+### Testing the python file

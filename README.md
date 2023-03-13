@@ -1,5 +1,8 @@
 ## Goal
 
+![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist%20example.png?raw=true)
+
+
 Fill logging.csv with data about RAM usage for a shared Server.
 The data includes
 - process name

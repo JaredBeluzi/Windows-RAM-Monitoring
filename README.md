@@ -6,9 +6,9 @@
     <li><a href="#how-to-use">How to use</a></li>
     <li><a href="#how-does-it-work">How does it work?</a></li>
       <ul>
-        <li><a href="#START.bat">START.bat</a></li>
-        <li><a href="#logging.bat">logging.bat</a></li>
-        <li><a href="#data_transformation.py">data_transformation.py</a></li>
+        <li><a href="#STARTbat">START.bat</a></li>
+        <li><a href="#loggingbat">logging.bat</a></li>
+        <li><a href="#data_transformationpy">data_transformation.py</a></li>
       </ul>
   </ol>
 </details>  
@@ -46,18 +46,18 @@ python -m pip install pandas
 
 # How does it work
 
-## START.bat
+### START.bat
 
 - should be started via Task Scheduler every day in the morning, e.g. at 06:00.
 - starts logging.bat
 
-## logging.bat
+### logging.bat
 
 - retrieves list of all processes with users and RAM usage once every minute and writes it into a logging.csv.
 - runs until 20:00
 - process stops and data_transformation.py starts
 
-## data_transformation.py
+### data_transformation.py
 
 - loads logging.csv into a pandas dataframe
 - corrects some mistakes in the data

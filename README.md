@@ -74,7 +74,7 @@ python -m pip install pandas
 This should open a cmd and create a logging.csv in the folder.
 You can click inside the cmd and stop the program:
 - click `CTRL + c`
-- This shows a message like `Stop the process (Y/N)`
+- This shows a message like >Stop the process (Y/N)
 - Here you can type `y` and click enter
 - Then close the cmd window
 

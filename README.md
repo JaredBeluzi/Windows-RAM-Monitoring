@@ -7,7 +7,7 @@
 The program creates a logging_hist.csv as above with data about the RAM usage of a Windows PC.
 The data shown in the picture above shows from left to right:
 - user (with domain)
-- process
+- process name
 - number of logging attempt of the day (useful for grouping data on each logging process)
 - logging date (German Format)
 - logging time
@@ -18,14 +18,15 @@ This data can then be used to create any dashboard you like.
 
 ## How to use
 
-- copy whole folder to the machine, where you want to monitor the RAM usage
-- install python on that machine
-- install pandas package in Python (in cmd:
+1. Copy the whole folder to the machine, where you want to monitor the RAM usage.
+2. Install python on that machine (I used python 3.11.1)
+3. Install the pandas package in Python (in cmd you can type:
 ```batch
-py -m pip install pandas
+python -m pip install pandas
 ```
-- add a task in task scheduler on Windows that starts the START.bat in the downloaded folder
-- let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv in this folder, that you can use however you want
+4. Add a task in the task scheduler on Windows that starts the START.bat in the downloaded folder each day in the morning, e.g. at 06:00 
+(please check the box in the task scheduler that starts the script even if you are not logged in on that machine!)
+5. Let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv like the one in the picture above in this folder
 
 
 ## How does it work?

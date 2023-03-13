@@ -5,7 +5,7 @@
     <li>
       <a href="#what-does-it-do">What does it do</a>
       <ul>
-        <li><a href="#Example-result">Example result</a></li>
+        <li><a href="#**Example-result**">Example result</a></li>
       </ul>
     </li>
     <li><a href="#how-to-use">How to use</a></li>

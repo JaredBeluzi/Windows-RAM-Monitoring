@@ -1,6 +1,7 @@
 ## What does it do?
 
 **Example result:**
+
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
 
 The program creates a logging_hist.csv as above with data about the RAM usage of a Windows PC.

@@ -1,17 +1,18 @@
 ## What does it do?
 
+**Example result:**
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
 
 The program creates a logging_hist.csv as above with data about the RAM usage of a Windows PC.
 The data shown in the picture above shows from left to right:
-- process name
-- logging number of the day (useful for grouping on logging entries)
-- logging date
+- user (with domain)
+- process
+- number of logging attempt of the day (useful for grouping data on each logging process)
+- logging date (German Format)
 - logging time
 - RAM usage in KB
-- user
 
-
+Since each user will be monitored seperately, this program can be used on a machine to track RAM usage per user on a multi-user PC.
 This data can then be used to create any dashboard you like.
 
 ## How to use

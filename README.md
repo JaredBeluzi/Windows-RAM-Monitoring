@@ -2,12 +2,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li>
-      <a href="#what-does-it-do">What does it do</a>
-      <ul>
-        <li><a href="#**Example-result**">**Example result**</a></li>
-      </ul>
-    </li>
+    <li><a href="#what-does-it-do">What does it do</a></li>
     <li><a href="#how-to-use">How to use</a></li>
     <li><a href="#how-does-it-work">How does it work?</a></li>
       <ul>
@@ -20,7 +15,7 @@
 
 # What does it do
 
-**Example result**
+**Example result:**
 
 ![alt text](https://github.com/JaredBeluzi/Windows-RAM-Monitoring/blob/main/logging_hist.png?raw=true)
 
@@ -49,20 +44,20 @@ python -m pip install pandas
 5. Let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv like the one in the picture above in this folder
 
 
-# How does it work?
+# How does it work
 
-### START.bat
+## START.bat
 
 - should be started via Task Scheduler every day in the morning, e.g. at 06:00.
 - starts logging.bat
 
-### logging.bat
+## logging.bat
 
 - retrieves list of all processes with users and RAM usage once every minute and writes it into a logging.csv.
 - runs until 20:00
 - process stops and data_transformation.py starts
 
-### data_transformation.py
+## data_transformation.py
 
 - loads logging.csv into a pandas dataframe
 - corrects some mistakes in the data

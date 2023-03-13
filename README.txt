@@ -1,6 +1,4 @@
---------------------------------
-------------- Goal -------------
---------------------------------
+## Goal
 
 Fill logging.csv with data about RAM usage for a shared Server.
 The data includes

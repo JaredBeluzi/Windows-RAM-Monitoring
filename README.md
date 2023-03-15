@@ -46,7 +46,7 @@ python -m pip install pandas
 ```
 4. Add a task in the task scheduler on Windows that starts the START.bat in the downloaded folder each day in the morning, e.g. at 06:00 
 (please check the box in the task scheduler that starts the script even if you are not logged in on that machine!)
-5. Let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv like the one in the picture above in this folder
+5. Let the Server do its thing and wait at least 2 days. Then there should be a logging_hist.csv in this folder like the one in the picture above.
 
 
 # How does it work?
